@@ -1,0 +1,228 @@
+<!-- ======= Header ======= -->
+<header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+            <img src="/admin-assets/img/logo.png" alt="">
+            <span class="d-none d-lg-block">KickIt Admin</span>
+        </a>
+        <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+
+    <nav class="header-nav ms-auto">
+        <ul class="d-flex align-items-center">
+
+
+            <li class="nav-item dropdown pe-3">
+
+                <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                    <span class="d-none d-md-block dropdown-toggle ps-2">KickIt Admin</span>
+                </a><!-- End Profile Iamge Icon -->
+
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                
+          
+                    <li>
+                        <a class="dropdown-item d-flex align-items-center" href="/admin/logout">
+                            <i class="bi bi-box-arrow-right"></i>
+                            <span>Sign Out</span>
+                        </a>
+                    </li>
+
+                </ul><!-- End Profile Dropdown Items -->
+            </li><!-- End Profile Nav -->
+
+        </ul>
+    </nav><!-- End Icons Navigation -->
+
+</header><!-- End Header -->
+
+<!-- ======= Sidebar ======= -->
+<aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+        <li class="nav-item">
+            <a class="nav-link " href="/admin/dash">
+                <i class="bi bi-grid"></i>
+                <span>Dashboard</span>
+            </a>
+        </li><!-- End Dashboard Nav -->
+
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-person"></i><span>Users Management</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="/admin/all-users">
+                        <i class="bi bi-circle"></i><span>All users </span>
+                    </a>
+                </li>
+
+            </ul>
+        </li><!-- End Forms Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-layout-text-window-reverse"></i><span>Product Management</span><i
+                    class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="/admin/all-products">
+                        <i class="bi bi-circle"></i><span>All Product </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin/add-products">
+                        <i class="bi bi-circle"></i><span>New Product</span>
+                    </a>
+                </li>
+            </ul>
+        </li><!-- End Tables Nav -->
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#icon-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-gem"></i><span>Order Management</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="icon-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="/admin/current-orders">
+                        <i class="bi bi-circle"></i><span>Current Orders</span>
+                    </a>
+                </li>
+            
+            </ul>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-bar-chart"></i><span>Catagories Management</span><i
+                    class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="/admin/view-categories">
+                        <i class="bi bi-circle"></i><span>All Categories</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin/add-category">
+                        <i class="bi bi-circle"></i><span>Add Category</span>
+                    </a>
+                </li>
+
+            </ul>
+        </li><!-- End Charts Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-gem"></i><span>Brand Management</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="/admin/view-brands">
+                        <i class="bi bi-circle"></i><span>View All Brands</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin/add-brand">
+                        <i class="bi bi-circle"></i><span>Add New Brand</span>
+                    </a>
+                </li>
+
+            </ul>
+        </li><!-- End Icons Nav -->
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#coupon-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-journal-text"></i><span>Coupon Management</span><i
+                    class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="coupon-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="/admin/view-coupons">
+                        <i class="bi bi-circle"></i><span>All active coupons</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin/add-coupon">
+                        <i class="bi bi-circle"></i><span>Add New Coupons</span>
+                    </a>
+                </li>
+
+            </ul>
+        </li><!-- End Forms Nav -->
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#banner-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-journal-text"></i><span>Banner Management</span><i
+                    class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="banner-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="/admin/view-banners">
+                        <i class="bi bi-circle"></i><span>Banners</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin/add-banner">
+                        <i class="bi bi-circle"></i><span>Add New banner</span>
+                    </a>
+                </li>
+
+            </ul>
+        </li>
+        <!-- End Forms Nav -->
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#showcase-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-journal-text"></i><span>Showcase Management</span><i
+                    class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="showcase-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="/admin/view-showcase">
+                        <i class="bi bi-circle"></i><span>Showcase</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin/add-showcase">
+                        <i class="bi bi-circle"></i><span>Add New Showcase</span>
+                    </a>
+                </li>
+
+            </ul>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" data-bs-target="#bestseller-nav" data-bs-toggle="collapse" href="#">
+                <i class="bi bi-journal-text"></i><span>Bestseller showcase Management</span><i class="bi bi-chevron-down ms-auto"></i>
+            </a>
+            <ul id="bestseller-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                <li>
+                    <a href="/admin/view-bestseller">
+                        <i class="bi bi-circle"></i><span>Bestseller</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/admin/add-bestseller">
+                        <i class="bi bi-circle"></i><span>Add New Bestseller</span>
+                    </a>
+                </li>
+        
+            </ul>
+        </li>
+        <li class="nav-heading">Pages</li>
+
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="/admin/salesReport">
+                <i class="bi bi-person"></i>
+                <span>Sales Report</span>
+            </a>
+        </li>
+
+
+    </ul>
+
+</aside><!-- End Sidebar-->
